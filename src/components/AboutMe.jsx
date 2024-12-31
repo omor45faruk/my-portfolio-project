@@ -1,11 +1,16 @@
-import React from 'react';
+ 
 
 const AboutMe = () => {
+
+   
+    
+
+
     return (
-        <div className='lg:min-h-screen'>
+        <div  className='min-h-screen'>
            
-           <div className="hero ">
-  <div className="hero-content justify-between flex-col lg:flex-row">
+           <div className="hero min-h-screen">
+  <div className="hero-content justify-between flex-col lg:flex-row  ">
    <div className='p-4  rounded-full border-2 '>
    <img
       src="https://i.ibb.co/MsFW4Bg/file-2.png"

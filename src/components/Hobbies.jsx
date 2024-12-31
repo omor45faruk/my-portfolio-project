@@ -14,7 +14,7 @@ import { MdAutoAwesome } from "react-icons/md";
 
 const Hobbies = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto min-h-screen content-center'>
             <div className='text-center space-y-7'>
                 <h1 className='text-4xl font-bold max-sm:text-2xl'>Hobbies & Expertise
                 </h1>

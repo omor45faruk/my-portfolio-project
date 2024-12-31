@@ -1,21 +1,19 @@
 import { Link, Links, Navigate, NavLink } from "react-router-dom";
-import Banner from "./Banner";
+ 
 
  
-const Navber = () => {
+const NavBer = () => {
 
     const link= 
     
    <>
 
-    <NavLink to={Banner} className='ml-10 font-semibold '>Home</NavLink>
-    <NavLink   className='ml-10 font-semibold '> About</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> Resume</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> Services</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> Skills</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> Projects</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> My Blog</NavLink> 
-    <NavLink  className='ml-10 font-semibold '> Contact</NavLink>
+    <NavLink to='/' className='ml-10 font-semibold '>Home</NavLink>
+    <NavLink  to='/about'  className='ml-10 font-semibold '> About</NavLink> 
+    
+    <NavLink  to='/services' className='ml-10 font-semibold '> Services</NavLink> 
+    <NavLink  to='/skill' className='ml-10 font-semibold '> Skills</NavLink> 
+    <NavLink  to='/contact' className='ml-10 font-semibold '> Contact</NavLink>
  
    
    </>
@@ -58,4 +56,4 @@ const Navber = () => {
     );
 };
 
-export default Navber;
+export default NavBer;

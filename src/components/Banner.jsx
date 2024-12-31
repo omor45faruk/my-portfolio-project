@@ -1,9 +1,14 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+ 
 const Banner = () => {
     return (
-        <div className=' min-h-screen items-center  bg-slate-200 '>
-<div className='pt-32 flex max-sm:flex-col justify-between w-11/12 items-center mx-auto'>
+        <div className=' min-h-screen items-center     
+         bg-base-200
+          ' 
+           >
+       
+<div className='  bg-opacity-60 align-middle flex max-sm:flex-col justify-between w-11/12 items-center mx-auto min-h-screen '>
             <div className=' '>
 
             <h4 className="  font-bold text-orange-600">Hello !! </h4>
@@ -13,7 +18,7 @@ const Banner = () => {
             
             <div className='mt-5'>
             <button className="btn btn-outline text-orange-500 bg-orange-500 bg-opacity-10">Download CV</button>
-            <button className=" btn btn-outline ml-4 text-orange-500 bg-orange-500 bg-opacity-10">Contact</button>
+            <Link to='/contact' className=" btn btn-outline ml-4 text-orange-500 bg-orange-500 bg-opacity-10">Hire me</Link>
             </div>
         
 
@@ -21,7 +26,9 @@ const Banner = () => {
 
 
             
-            <div className=''><img className='w-[400px]' src="https://i.ibb.co/2j5H7LV/file-3.png" alt="" /></div>
+            <div className='min-h-screen content-center'>
+                <img className='w-[400px] h-full' src="https://i.ibb.co/2j5H7LV/file-3.png" alt="" />
+            </div>
 
 
 </div>

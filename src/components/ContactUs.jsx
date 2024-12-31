@@ -2,17 +2,20 @@ import React from 'react';
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { IoMailOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
+import { div } from 'motion/react-client';
 
 const ContactUs = () => {
     return (
-        <div className='h-screen w-11/12 mx-auto  '>
-           <div className='text-center space-y-7 mt-14'>
+        <div className='bg-base-200   min-h-screen  sm:h-96'>
+
+<div className=' w-11/12 mx-auto  '>
+           <div className='text-center space-y-7  pt-14'>
         <h1 className='text-4xl font-bold max-sm:text-2xl'>Get In Touch !
         </h1>
         <p className='text-stone-600'>Obviously I'm a Web Designer. Web Developer with over 2 years of experience. <br /> Experienced with all stages of the development.</p></div> 
 
-        <section className='flex'>
-            <div className='w-3/5 border mt-10 p-8 space-y-5 '>
+        <section className='flex max-sm:flex-col'>
+            <div className='lg:w-3/5 md:w-3/5 w-full border mt-10 p-8 space-y-5 bg-white'>
             <span className='flex gap-5'>
             <input type="text" placeholder="Name : " className="input input-bordered w-full max-w-sm" />
             <input type="text" placeholder="Email : " className="input input-bordered w-full max-w-sm" />
@@ -76,6 +79,7 @@ const ContactUs = () => {
 
 
 
+        </div>
         </div>
 
     );
