@@ -10,7 +10,7 @@ import { IoIosAperture } from "react-icons/io";
 import { CiCamera } from "react-icons/ci";
 const Service = () => {
     return (
-    <div className='py-14 bg-base-200'>
+    <div className='py-14 bg-base-200 w-full'>
     <div className='text-center space-y-7'>
         <h1 className='text-4xl font-bold max-sm:text-2xl'>What do i offer?
         </h1>

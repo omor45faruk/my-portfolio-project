@@ -10,11 +10,11 @@ const AboutMe = () => {
         <div  className='min-h-screen'>
            
            <div className="hero min-h-screen">
-  <div className="hero-content justify-between flex-col lg:flex-row  ">
+  <div className="hero-content justify-between flex-col lg:flex-row w-auto ">
    <div className='p-4  rounded-full border-2 '>
    <img
       src="https://i.ibb.co/MsFW4Bg/file-2.png"
-      className="max-w-sm rounded-full    border bg-orange-400" />
+      className="max-w-sm max-sm:max-w-xs rounded-full max-sm:h-96   border bg-orange-400" />
    </div>
     <div className='ml-6 '>
       <h1 className="text-4xl font-bold max-sm:text-2xl max-md:text-3xl">I'm a Passionate Web Designer</h1>
